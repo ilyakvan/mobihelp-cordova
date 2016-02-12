@@ -69,7 +69,7 @@
                <property name="java.target" value="1.7" />
                <property name="java.source" value="1.7" />
           </config-file>
-
+	<framework src="com.android.support:appcompat-v7:+" />
          <framework src="src/android/mobihelp_sdk" custom="true" /> 
         <source-file src="src/android/Wrap.java" target-dir="src/in/oxylab/mobihelp" />
 
